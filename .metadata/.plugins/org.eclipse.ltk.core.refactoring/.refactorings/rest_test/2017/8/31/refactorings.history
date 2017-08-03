@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.harpalsinh.rest_test.data_tier.user_contact&apos; to &apos;jdbc_user_contact&apos;&#x0D;&#x0A;- Original project: &apos;rest_test&apos;&#x0D;&#x0A;- Original element: &apos;com.harpalsinh.rest_test.data_tier.user_contact&apos;&#x0D;&#x0A;- Renamed element: &apos;com.harpalsinh.rest_test.data_tier.jdbc_user_contact&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;user_contact&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.harpalsinh.rest_test.data_tier{user_contact.java[user_contact" matchStrategy="1" name="jdbc_user_contact" qualified="false" references="true" similarDeclarations="false" stamp="1501745602355" textual="false" version="1.0"/>
+</session>

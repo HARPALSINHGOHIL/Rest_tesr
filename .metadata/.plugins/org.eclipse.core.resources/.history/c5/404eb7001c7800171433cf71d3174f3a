@@ -1,0 +1,28 @@
+package com.harpalsinh.rest_test;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.google.gson.Gson;
+import com.harpalsinh.rest_test.data_tier.jdbc_user;
+import com.harpalsinh.rest_test.pojo.user;
+
+@Path("/contact")
+public class usercontactResource {
+	
+	@GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getAll() {
+    	jdbc_user ju=new jdbc_user();
+    	List<user> li=ju.getList();
+    	li.remove(0);
+    	Gson g=new Gson();
+    	String res=g.toJson(li);
+    	return "{\"success\":"+res+"}";
+    }
+
+}

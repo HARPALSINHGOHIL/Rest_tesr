@@ -1,0 +1,10 @@
+package com.harpalsinh.rest_test.data_tier;
+
+public class jdbc_user {
+	
+	public static void main(String ar[])
+	{
+		
+	}
+
+}
